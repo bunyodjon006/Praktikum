@@ -1,0 +1,105 @@
+<div class="main" [ngStyle]="{'background-image': 'url(' + currentImage + ')' }">
+  <div class="mains_container">
+    <header>
+      <nav>
+        <div>
+          <img src="/assets/texnikum.png" alt="photo logo">
+        </div>
+        <div>
+          <ul id="menyoo">
+            <li [class.items_active]="selectTab=='home'" (click)="selecttab('home')" class="home">BOSH SAHIFA</li>
+            <li [class.items_active]="selectTab=='information'" (click)="selecttab('information')" class="information">
+              MA'LUMOTLAR</li>
+            <li [class.items_active]="selectTab=='education'" (click)="selecttab('education')" class="education">TA'LIM
+            </li>
+            <li [class.items_active]="selectTab=='director'" (click)="selecttab('director')" class="director">RAHBARIYAT
+            </li>
+            <li [class.items_active]="selectTab=='news'" (click)="selecttab('news')" class="news">YANGILIKLAR</li>
+            <li [class.items_active]="selectTab=='about'" (click)="selecttab('about')" class="about">BIZ HAQIMIZDA</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="icons">
+            <li>
+              <div class="instagram_svg"></div>
+              <div class="linkedin_svg"></div>
+              <div class="telegram_svg"></div>
+              <div (click)="OnMenu()" class="menu"></div>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </header>
+    <div class="card_title">
+      <h1>Qashqadaryo Shahrisabiz Yuridik va Huquqshunoslik Texnikum Kolleji</h1>
+    </div>
+    <div class="card_carusel">
+      <div class="arrow_back">
+        <mat-icon (click)="changeBackground()">arrow_back_ios</mat-icon>
+      </div>
+      <div class="arrow_forward">
+        <mat-icon (click)="changeBackground()">arrow_forward_ios</mat-icon>
+      </div>
+    </div>
+    <div class="card_texts">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus totam neque molestiae, Lorem ipsum
+        dolor sit amet. Lorem ipsum dolor sit. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Atque, neque. fugit assumenda quod labore soluta dolorem consectetur optio.</p>
+    </div>
+    <div class="card_buttons">
+      <button class='glowing-btn'><span class='glowing-txt'><span class='faulty-letter'>B</span>iz bilan
+          bog'lanish</span></button>
+
+      <button class="button_left">Ko'proq o'qish</button>
+    </div>
+    <div class="card_container">
+      <div class="card_page card-1">
+        <div class="cards_image">
+        <img src="/assets/images (1).jpg" alt="photo course 1">
+        </div>
+        <div class="card_title">
+          <h3>Moliyaviy Erkinlik </h3>
+        </div>
+        <div class="card_text">
+          <p>Lorem ipsum dolor sit amet consectma est aperiam dolorem ducimus repellat exercitationem dolores!</p>
+        </div>
+        <div class="cards_buttons">
+          <button>Batafsil</button>
+        </div>
+      </div>
+      <div class="card_page card-1">
+        <div class="cards_image">
+        <img src="/assets/images (2).jpg" alt="photo course 1">
+        </div>
+        <div class="card_title">
+          <h3>IT va Kompyuter Savodxonligi </h3>
+        </div>
+        <div class="card_text">
+          <p>Lorem ipsum dolor sit amet consectetur m dolorem voluptatibus ducimus repellat exercitationem dolores!</p>
+        </div>
+        <div class="cards_buttons">
+          <button>Batafsil</button>
+        </div>
+      </div>
+      <div class="card_page card-1">
+        <div class="cards_image">
+          <img src="/assets/images (3).jpg" alt="photo course 1">
+        </div>
+        <div class="card_title">
+          <h3>Bank Sistemasi </h3>
+        </div>
+        <div class="card_text">
+          <p>Lorem ipsum dolor sit amet consectetur luptatibus ducimus repellat exercitationem dolores!</p>
+        </div>
+        <div class="cards_buttons">
+          <button>Batafsil</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   
+   
+</div>
+

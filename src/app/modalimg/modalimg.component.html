@@ -1,0 +1,9 @@
+<div class="main">
+    <mat-icon class="close" (click)="close()"  >close</mat-icon>
+    <div>
+        <mat-icon (click)="previousImage()" class="arrow-icons">arrow_back</mat-icon>
+        <img  [src]="currentImage" alt="">
+        <mat-icon (click)="nextImage()" class="arrow-icons">arrow_forward</mat-icon>
+    </div>
+    
+</div>

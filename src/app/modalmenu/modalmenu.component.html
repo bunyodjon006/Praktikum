@@ -1,0 +1,33 @@
+<div class="main">
+    <div class="sidenav">
+        
+        <div class="cart_img">
+            <img src="/assets/texnikum.png" alt="logo">
+            
+        </div>
+        <ul class="itemss" >
+            <li [class.items_active]="selectTab=='home'" (click)="selecttab('home')" class="home">BOSH SAHIFA</li>
+            <li [class.items_active]="selectTab=='information'" (click)="selecttab('information')" class="information">
+              MA'LUMOTLAR</li>
+            <li [class.items_active]="selectTab=='education'" (click)="selecttab('education')" class="education">TA'LIM
+            </li>
+            <li [class.items_active]="selectTab=='director'" (click)="selecttab('director')" class="director">RAHBARIYAT
+            </li>
+            <li [class.items_active]="selectTab=='news'" (click)="selecttab('news')" class="news">YANGILIKLAR</li>
+            <li [class.items_active]="selectTab=='about'" (click)="selecttab('about')" class="about">BIZ HAQIMIZDA</li>
+          </ul>
+    </div>
+    <div>
+        <hr>
+        <ul class="footer_svg">
+            <li>
+                <div class="instagram_svg"></div>
+                <div class="linkedin_svg"></div>
+                <div class="telegram_svg"></div>
+            </li>
+        </ul>
+        <div>
+            <button class="button-19" role="button">Biz bilan bog'lanish</button>
+        </div>
+    </div>
+</div>

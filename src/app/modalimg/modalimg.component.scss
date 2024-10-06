@@ -1,0 +1,34 @@
+.main {
+    display: flex;
+    justify-content: center;
+     align-items: end;
+    flex-direction: column;
+    height: auto;
+}
+.close {
+    // float:left;
+    color:#fff;
+   cursor:pointer;
+    margin-right:50px;
+}
+.main div img {
+    width: 60%;
+    text-align:center;
+    height:auto;
+}
+.main div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .arrow-icons {
+    width: auto;
+    margin: 10px;;
+    color: #fff;
+    cursor: pointer;
+}
+@media only screen and (max-width:580px){
+    .main .arrow-icons {
+     width: 100%;
+    }
+}
