@@ -40,7 +40,7 @@ div p {
 }
 @media only screen and (max-width:980px) {
   .card_container {
-    margin-top: 1260px;
+    margin-top: 1290px;
   }
 }
 
@@ -70,13 +70,13 @@ div p {
 
 @media only screen and (max-width:439px) {
   .card_container {
-    margin-top: 1200px;
+    margin-top: 1280px;
   }
 }
 
 @media only screen and (max-width:418px) {
   .card_container {
-    margin-top: 1230px;
+    margin-top: 1300px;
   }
 }
 // Responsive Design end
@@ -997,6 +997,16 @@ footer .footer_card ul li:hover {
 @media only screen and (max-width:629px) {
   .pagess_cards .flexs-box {
     flex-direction: column;
+  }
+  .flexis-content h1 {
+    font-size: 0.98rem;
+  }
+  .title-pagess p {
+    font-size:0.88rem;
+    margin:6px;
+  }
+  .gold-left {
+    margin: 10px;
   }
   .pagess_cards .flexs-box .cards-pages {
     padding-bottom: 10px;
