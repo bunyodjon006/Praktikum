@@ -1,10 +1,16 @@
 <div class="main" [ngStyle]="{'background-image': 'url(' + currentImage + ')' }">
+  <!-- Mains Container start -->
   <div class="mains_container">
+    <!-- Header Start -->
     <header>
+      <!-- Nav End -->
       <nav>
+        <!-- Nav Page Logo start -->
         <div>
           <img src="/assets/texnikum.png" alt="photo logo">
         </div>
+        <!-- Nav Page Logo end -->
+         <!-- Navbar menyoo start -->
         <div>
           <ul id="menyoo">
             <li [class.items_active]="selectTab=='home'" (click)="selecttab('home')" class="home">BOSH SAHIFA</li>
@@ -18,6 +24,8 @@
             <li [class.items_active]="selectTab=='about'" (click)="selecttab('about')" class="about">BIZ HAQIMIZDA</li>
           </ul>
         </div>
+        <!-- Navbar menyoo end -->
+         <!-- Navbar Icons start -->
         <div>
           <ul class="icons">
             <li>
@@ -28,12 +36,17 @@
             </li>
           </ul>
         </div>
-
+    <!-- Navbar Icons end -->
       </nav>
+      <!-- Nav End -->
     </header>
+    <!-- Header End -->
+     <!-- Header Title Page start -->
     <div class="card_title">
       <h1>Qashqadaryo Shahrisabiz Yuridik va Huquqshunoslik Texnikum Kolleji</h1>
     </div>
+     <!-- Header Title Page end -->
+      <!-- Carousel Element start -->
     <div class="card_carusel">
       <div class="arrow_back">
         <mat-icon (click)="changeBackground()">arrow_back_ios</mat-icon>
@@ -42,25 +55,36 @@
         <mat-icon (click)="changeBackground()">arrow_forward_ios</mat-icon>
       </div>
     </div>
+    <!-- Carousel Element end -->
+     <!-- Header Title text start -->
     <div class="card_texts">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus totam neque molestiae, Lorem ipsum
         dolor sit amet. Lorem ipsum dolor sit. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur,
         adipisicing elit. Atque, neque. fugit assumenda quod labore soluta dolorem consectetur optio.</p>
     </div>
+    <!-- Header Ttitle text end -->
+     <!-- Header buttons start -->
     <div class="card_buttons">
       <button class='glowing-btn'><span class='glowing-txt'><span class='faulty-letter'>B</span>iz bilan
           bog'lanish</span></button>
 
       <button class="button_left">Ko'proq o'qish</button>
     </div>
+    <!-- Header buttons end -->
+     <!-- Card Page start -->
     <div class="card_container">
+      <!-- Card start -->
       <div class="card_page card-1">
+            <!-- Cards Image content start -->
         <div class="cards_image">
         <img src="/assets/images (1).jpg" alt="photo course 1">
         </div>
+            <!-- Cards Image content start -->
         <div class="card_title">
           <h3>Moliyaviy Erkinlik </h3>
         </div>
+         <!-- Card 1 end -->
+           <!-- Card 2 start -->
         <div class="card_text">
           <p>Lorem ipsum dolor sit amet consectma est aperiam dolorem ducimus repellat exercitationem dolores!</p>
         </div>
@@ -68,10 +92,14 @@
           <button>Batafsil</button>
         </div>
       </div>
+       <!-- Card 2 end -->
+       <!-- Card 3 start -->
       <div class="card_page card-1">
+            <!-- Cards Image content start -->
         <div class="cards_image">
         <img src="/assets/images (2).jpg" alt="photo course 1">
         </div>
+            <!-- Cards Image content end -->
         <div class="card_title">
           <h3>IT va Kompyuter Savodxonligi </h3>
         </div>
@@ -82,10 +110,14 @@
           <button>Batafsil</button>
         </div>
       </div>
+       <!-- Card 3  end -->
+         <!-- Card 4  start -->
       <div class="card_page card-1">
+        <!-- Cards Image content start -->
         <div class="cards_image">
           <img src="/assets/images (3).jpg" alt="photo course 1">
         </div>
+            <!-- Cards Image content end -->
         <div class="card_title">
           <h3>Bank Sistemasi </h3>
         </div>
@@ -97,9 +129,8 @@
         </div>
       </div>
     </div>
+    <!-- Card page end -->
   </div>
-
-   
-   
+<!-- Mains Container End -->
 </div>
 
