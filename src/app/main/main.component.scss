@@ -2,7 +2,7 @@
 .main {
   width: 100%;
   height: auto;
-  // padding-bottom: 10px;
+  //  padding-bottom: 10px;
 }
 // Main css end
 // Card_container start
@@ -648,13 +648,17 @@ mat-card-content button {
   display: flex;
   justify-content: center;
   margin-top: 40px;
-  padding: 20px;
+  // padding: 20px;
+  min-height: 290px;
+  height:auto;
+ 
 }
 
 footer {
   max-width: 1480px;
   display: flex;
   flex-wrap: wrap;
+  height: auto;
   justify-content: center;
   align-items: flex-start;
 }
