@@ -23,6 +23,7 @@
     "@fortawesome/angular-fontawesome": "^0.13.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "build": "^0.1.4",
     "ng-zorro-antd": "^16.2.2",
     "ngx-spinner": "^17.0.0",
     "praktikum": "file:",
