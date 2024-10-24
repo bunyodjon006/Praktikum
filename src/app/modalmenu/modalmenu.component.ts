@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Dialog } from '@angular/cdk/dialog';
 
 @Component({
   selector: 'app-modalmenu',
@@ -10,5 +11,11 @@ export class ModalmenuComponent {
 
   selecttab(tab: string) {
     this.selectTab = tab;
+  }
+  constructor(public dialog:Dialog){}
+  close(){
+    this.dialog.closeAll();
+    console.log("hell");
+    
   }
 }
